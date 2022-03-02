@@ -6,7 +6,7 @@ xkb_symbols "finsibase" {
     //              Unmodified       Shift             AltGr                  Shift+AltGr
     
     // Modified combination
-    key <TLDE> { [  greater,         less,             dead_stroke,           NoSymbol              ] };
+    key <TLDE> { [  less,            greater,          dead_stroke,           NoSymbol              ] };
 
     key <AE01> { [  1,               exclam,           NoSymbol,              exclamdown            ] };
     key <AE02> { [  2,               quotedbl,         at,                    rightdoublequotemark  ] };

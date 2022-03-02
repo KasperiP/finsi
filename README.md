@@ -27,7 +27,7 @@ Check the ["Comparison of alternatives" section](https://github.com/samulisuomi/
 1. Install the layout for your OS:
     - macOS: Unzip `macOS\Finnish - US Influenced.bundle.zip` and then see e.g. [these instructions](https://weibeld.net/mac/custom-keyboard-layout.html) on how to install the `.keylayout` file found under `Contents/Resources`.
     - Windows: Run the installer from `Windows\finnishu\setup.exe`.
-    - Linux: Add the `finsi` to `/usr/share/X11/xkb/symbols/` and `evdev.xml` to `/usr/share/X11/xkb/rules/`. You can change to finsi using command `setxkbmap -layout finsi` or you can add the `setxkbmap.desktop` to your autostart scripts.
+    - Linux: Add the `finsi` to `/usr/share/X11/xkb/symbols/`. You can change to finsi using command `setxkbmap -layout finsi` or you can add the `startup.sh` to your autostart scripts.
 
 The layout files were created in [Ukelele](http://software.sil.org/ukelele/) and [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=102134).
 
